@@ -1,0 +1,74 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  background-image: url("images/blackjack.jpg");
+  background-size: cover;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 220px;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 45px;
+  text-shadow: 0.5px 0.5px #555555;
+  padding-bottom: 20px;
+}
+
+#message-el {
+  font-style: italic;
+  font-size: 15px;
+  text-shadow: 0.5px 0.5px black;
+}
+
+#cards-el {
+  text-shadow: 1.5px 1.5px #555555;
+}
+
+#sum-el {
+  text-shadow: 1.5px 1.5px #555555;
+  padding-bottom: 25px;
+}
+
+#player-el {
+  text-shadow: 1.5px 1.5px #555555;
+}
+
+button {
+  color: white;
+  width: 250px;
+  background: #555555;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  cursor: pointer;
+  box-shadow: 0.2px 0.2px black;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+  /*border: 1px solid #555555;*/
+  box-shadow: 0.2px 0.2px black;
+}
+
+#startButton-el {
+  text-shadow: 0.3px 0.3px black;
+}
+
+#startButton-el:hover {
+  text-shadow: 0.2px 0.2px #555555;
+}
+
+#newCardButton-el {
+  text-shadow: 0.3px 0.3px black;
+}
+
+#newCardButton-el:hover {
+  text-shadow: 0.2px 0.2px #555555;
+}
